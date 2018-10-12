@@ -24,7 +24,7 @@ echo "<?xml version="1.0" encoding="UTF-8"?>\n\
                     <key>kind</key>\n\
                     <string>software-package</string>\n\
                     <key>url</key>" > install.plist
-echo "                    <string>http://192.168.40.210:9880/mobagame/ipa/${FILE_NAME}/mobaiosinhouse_out_${FILE_NAME}.ipa</string>" >> install.plist
+echo "                    <string>http://192.168.40.210:9880/mobagame/ipa/mobaiosinhouse_out_${FILE_NAME}.ipa</string>" >> install.plist
 echo "            </dict>\n\
                 <dict>\n\
                     <key>kind</key>\n\

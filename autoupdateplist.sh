@@ -50,3 +50,44 @@ echo "                <key>kind</key>\n\
     </array>\n\
 </dict>\n\
 </plist>" >> install.plist
+
+
+echo "<?xml version="1.0" encoding="UTF-8"?>\n\
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">\n\
+<plist version="1.0">\n\
+<dict>\n\
+    <key>items</key>\n\
+    <array>\n\
+        <dict>\n\
+            <key>assets</key>\n\
+            <array>\n\
+                <dict>\n\
+                    <key>kind</key>\n\
+                    <string>software-package</string>\n\
+                    <key>url</key>" > installout.plist
+echo "                    <string>http://101.230.210.198:9880/mobagame/ipa/mobaiosinhouse_out_${FILE_NAME}.ipa</string>" >> installout.plist
+echo "            </dict>\n\
+                <dict>\n\
+                    <key>kind</key>\n\
+                    <string>display-image</string>\n\
+                    <key>needs-shine</key>\n\
+                    <true/>\n\
+                    <key>url</key>\n\
+                    <string>http://101.230.210.198:9880/mobagame/ipa/res/180.png</string>\n\
+                </dict>\n\
+            </array>\n\
+            <key>metadata</key>\n\
+            <dict>\n\
+                <key>bundle-identifier</key>\n\
+                <string>com.mobile.legends.inhouse</string>\n\
+                <key>bundle-version</key>" >> installout.plist
+echo "                <string>${IPA_VERSION}</string>" >> installout.plist
+echo "                <key>kind</key>\n\
+                <string>software</string>\n\
+                <key>title</key>\n\
+                <string>Mobile Legends: Bang Bang</string>\n\
+            </dict>\n\
+        </dict>\n\
+    </array>\n\
+</dict>\n\
+</plist>" >> installout.plist

@@ -65,7 +65,7 @@ echo "<?xml version="1.0" encoding="UTF-8"?>\n\
                     <key>kind</key>\n\
                     <string>software-package</string>\n\
                     <key>url</key>" > installout.plist
-echo "                    <string>http://101.230.210.198:9880/mobagame/ipa/mobaiosinhouse_out_${FILE_NAME}.ipa</string>" >> installout.plist
+echo "                    <string>http://114.215.170.217:9877/ipa/mobaiosinhouse_out_${FILE_NAME}.ipa</string>" >> installout.plist
 echo "            </dict>\n\
                 <dict>\n\
                     <key>kind</key>\n\
@@ -73,7 +73,7 @@ echo "            </dict>\n\
                     <key>needs-shine</key>\n\
                     <true/>\n\
                     <key>url</key>\n\
-                    <string>http://101.230.210.198:9880/mobagame/ipa/res/180.png</string>\n\
+                    <string>http://114.215.170.217:9877/ipa/res/180.png</string>\n\
                 </dict>\n\
             </array>\n\
             <key>metadata</key>\n\

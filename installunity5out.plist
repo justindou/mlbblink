@@ -11,7 +11,7 @@
                     <key>kind</key>
                     <string>software-package</string>
                     <key>url</key>
-                    <string>http://192.168.40.210:9880/mobagame/ipa/mobaiosinhouse_out_1.6.94.759.1_202206282214_2017_out.ipa</string>
+                    <string>http://192.168.40.210:9880/mobagame/ipa/mobaiosinhouse_out_1.7.08.772.1_202208041138_2017_out.ipa</string>
             </dict>
                 <dict>
                     <key>kind</key>
@@ -27,7 +27,7 @@
                 <key>bundle-identifier</key>
                 <string>com.mobile.legends.inhouse</string>
                 <key>bundle-version</key>
-                <string>1.6.94.759.1</string>
+                <string>1.7.08.772.1</string>
                 <key>kind</key>
                 <string>software</string>
                 <key>title</key>

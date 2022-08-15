@@ -1,7 +1,7 @@
 #!/bin/sh
 
 #read num
-if [ $# != 2 ]; then
+if [[ $# -lt 2 ]]; then
    echo invalid param
    exit 0
 else

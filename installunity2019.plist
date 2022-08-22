@@ -1,6 +1,6 @@
-<?xml version=1.0 encoding=UTF-8?>
-<!DOCTYPE plist PUBLIC -//Apple//DTD PLIST 1.0//EN http://www.apple.com/DTDs/PropertyList-1.0.dtd>
-<plist version=1.0>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
 <dict>
     <key>items</key>
     <array>
@@ -11,7 +11,7 @@
                     <key>kind</key>
                     <string>software-package</string>
                     <key>url</key>
-                    <string>http://192.168.40.210:9880/mobagame/ipa/mobaiosinhouse_out_1.7.08.772.1_202208041138_2019.ipa</string>
+                    <string>http://192.168.40.210:9880/mobagame/ipa/mobaiosinhouse_out_1.7.12.777.1_202208190528_2019.ipa</string>
             </dict>
                 <dict>
                     <key>kind</key>
@@ -27,11 +27,11 @@
                 <key>bundle-identifier</key>
                 <string>com.mobile.legends.inhouse</string>
                 <key>bundle-version</key>
-                <string>1.7.08.772.1</string>
+                <string>1.7.12.777.1</string>
                 <key>kind</key>
                 <string>software</string>
                 <key>title</key>
-                <string>U2019-Mobile</string>
+                <string>U2019-Mobile Legends: Bang Bang</string>
             </dict>
         </dict>
     </array>

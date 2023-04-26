@@ -26,6 +26,11 @@ if [[ -z ${BUNDLE_ID} ]]; then
     BUNDLE_ID="com.mobile.legends.inhouse2017"
 fi
 
+FULL_FILE_NAME=mobaiosinhouse_out_${FILE_NAME}.ipa
+if [[ ${FILE_NAME} =~ "mobaios" ]]; then
+    FULL_FILE_NAME=${FILE_NAME}.ipa
+fi
+
 echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n\
 <!DOCTYPE plist PUBLIC \"-//Apple//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">\n\
 <plist version=\"1.0\">\n\
@@ -39,7 +44,7 @@ echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n\
                     <key>kind</key>\n\
                     <string>software-package</string>\n\
                     <key>url</key>" > ${PLIST_NAME}
-echo "                    <string>https://intestres.mobilelegends.com/mobagame/ipa/mobaiosinhouse_out_${FILE_NAME}.ipa</string>" >> ${PLIST_NAME}
+echo "                    <string>https://intestres.mobilelegends.com/mobagame/ipa/${FULL_FILE_NAME}</string>" >> ${PLIST_NAME}
 echo "            </dict>\n\
                 <dict>\n\
                     <key>kind</key>\n\

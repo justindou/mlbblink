@@ -11,7 +11,7 @@
                     <key>kind</key>
                     <string>software-package</string>
                     <key>url</key>
-                    <string>https://intestres.mobilelegends.com/mobagame/ipa/mobaios_18369101_202311171624-tf-beta-dev-out-iostest_resign_in_155407.ipa</string>
+                    <string>https://intestres.mobilelegends.com/mobagame/ipa/mobaiosinhouse_out_1.8.36.910.1_202311192025_2019.ipa</string>
             </dict>
                 <dict>
                     <key>kind</key>
@@ -25,7 +25,7 @@
             <key>metadata</key>
             <dict>
                 <key>bundle-identifier</key>
-                <string>com.mobile.mlbb.beta.inhouse</string>
+                <string>com.mobile.legends.inhouse2017</string>
                 <key>bundle-version</key>
                 <string>1.8.36.910.1</string>
                 <key>kind</key>

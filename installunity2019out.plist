@@ -11,7 +11,7 @@
                     <key>kind</key>
                     <string>software-package</string>
                     <key>url</key>
-                    <string>https://intestres.mobilelegends.com/mobagame/ipa/mobaios_18319052_202310302108-dev-out_resign_out_154242.ipa</string>
+                    <string>https://intestres.mobilelegends.com/mobagame/ipa/mobaios_18479191_202312200202-dev-out_resign_out_156953.ipa</string>
             </dict>
                 <dict>
                     <key>kind</key>
@@ -27,7 +27,7 @@
                 <key>bundle-identifier</key>
                 <string>com.mobile.legends.bytedance.inhouse</string>
                 <key>bundle-version</key>
-                <string>1.8.31.905.2</string>
+                <string>1.8.47.919.1</string>
                 <key>kind</key>
                 <string>software</string>
                 <key>title</key>
